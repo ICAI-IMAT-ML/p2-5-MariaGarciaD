@@ -256,7 +256,7 @@ class LogisticRegressor:
         - y is the actual label of the observation,
         - y_hat is the predicted probability that the observation is of the positive class,
         - log is the natural logarithm.
-
+  
         Parameters:
         - y (np.ndarray): The true labels of the data. Should be a 1D array of binary values (0 or 1).
         - y_hat (np.ndarray): The predicted probabilities of the data belonging to the positive class (1).
